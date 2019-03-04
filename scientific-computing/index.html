@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Scientific Computing</title>
+  <meta name="description" content="Several crates have populated the scientific computing spaceespecially regarding matrix operations and linear algebra.But it’s still too early to know which ...">
+
+  <link rel="stylesheet" href="/css/flexboxgrid.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="canonical" href="http://arewelearningyet.com/scientific-computing/">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#b7410e">
+  <meta name="theme-color" content="#b7410e">
+</head>
+
+
+  <body>
+
+    
+      <header class="site-header">
+
+  <div class="container">
+
+    <a class="site-title" href="/">
+      <img src="/images/rust-9000.png" style="vertical-align:middle;">
+      Are we learning yet?
+    </a>
+
+    <nav class="site-nav" style="float:right;">
+      
+      
+        
+      
+        
+      
+        
+          <span class="site-nav-link">
+            <a class="page-link" href="/irc/">Chat</a>
+          </span>
+        
+      
+        
+          <span class="site-nav-link">
+            <a class="page-link" href="/friends/">Friends</a>
+          </span>
+        
+      
+        
+          <span class="site-nav-link">
+            <a class="page-link" href="/about/">About</a>
+          </span>
+        
+      
+    </nav>
+
+  </div>
+
+</header>
+
+    
+
+    <div class="page-content">
+      <article class="container post">
+
+  <header class="post-header">
+    <h1 class="post-title">Scientific Computing</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Several crates have populated the scientific computing space
+especially regarding matrix operations and linear algebra.
+But it’s still too early to know which crates will emerge as
+central to a robust scientific computing ecosystem.</p>
+
+<p>Given the value of iterative analysis in scientific computing,
+it’s worth checking out <a href="https://github.com/google/evcxr/blob/master/evcxr_repl/">Evcxr REPL</a>.
+There is also a <a href="https://github.com/google/evcxr/tree/master/evcxr_jupyter/">Jupyter backend for Rust</a>.</p>
+
+<p>Also, check out some of these resources:</p>
+
+<ul>
+  <li><a href="http://bluss.github.io/rust/2016/03/28/a-gemmed-rabbit-hole/">A gemmed rabbit hole</a> - concerning matrix multiplication</li>
+  <li><a href="http://athemathmo.github.io/2016/03/23/linear-algebra-in-rust.html">Linear Algebra in Rust</a> - intro to the module that became <a href="https://crates.io/crates/rulinalg">rulinalg</a></li>
+</ul>
+
+  </div>
+
+  
+  
+    <div>
+      <hr>
+      <h3>
+        nalgebra
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/nalgebra">crate</a> &middot;
+          <a href="https://github.com/rustsim/nalgebra">repo</a> &middot;
+          <a href="http://nalgebra.org/rustdoc/nalgebra/index.html">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/nalgebra.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/nalgebra.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/rustsim/nalgebra.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>Linear algebra library with transformations and statically-sized or dynamically-sized matrices.</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 25 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 18 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 30</span>
+          <span class="crate-stat"><b>Open Issues</b>: 97</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        cgmath
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/cgmath">crate</a> &middot;
+          <a href="https://github.com/brendanzab/cgmath">repo</a> &middot;
+          <a href="https://docs.rs/cgmath">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/cgmath.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/cgmath.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/brendanzab/cgmath.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A linear algebra and mathematics library for computer graphics.</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 25 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 17 Jan 2019</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 30</span>
+          <span class="crate-stat"><b>Open Issues</b>: 45</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        bio
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/bio">crate</a> &middot;
+          <a href="https://github.com/rust-bio/rust-bio">repo</a> &middot;
+          <a href="https://docs.rs/bio">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/bio.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/bio.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/rust-bio/rust-bio.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A bioinformatics library for Rust. This library provides implementations of many algorithms and data structures that are useful for bioinformatics, but also in other fields.</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 25 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 12 Dec 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 30</span>
+          <span class="crate-stat"><b>Open Issues</b>: 26</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        collenchyma
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/collenchyma">crate</a> &middot;
+          <a href="https://github.com/autumnai/collenchyma">repo</a> &middot;
+          <a href="http://autumnai.github.io/collenchyma">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/collenchyma.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/collenchyma.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/autumnai/collenchyma.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>high-performance computation on any hardware</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 10 Apr 2016</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 21 Feb 2016</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 9</span>
+          <span class="crate-stat"><b>Open Issues</b>: 23</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        rulinalg
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/rulinalg">crate</a> &middot;
+          <a href="https://github.com/AtheMathmo/rulinalg">repo</a> &middot;
+          <a href="https://AtheMathmo.github.io/rulinalg/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/rulinalg.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/rulinalg.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/AtheMathmo/rulinalg.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A linear algebra library.</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 07 Sep 2017</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 17 Feb 2017</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 19</span>
+          <span class="crate-stat"><b>Open Issues</b>: 55</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        scirust
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/scirust">crate</a> &middot;
+          <a href="https://github.com/indigits/scirust">repo</a> &middot;
+          <a href="http://indigits.github.io/scirust/doc/scirust/index.html">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/scirust.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/scirust.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/indigits/scirust.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A scientific computing library</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 20 Mar 2017</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 11 Dec 2015</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 4</span>
+          <span class="crate-stat"><b>Open Issues</b>: 16</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        euclid
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/euclid">crate</a> &middot;
+          <a href="https://github.com/servo/euclid">repo</a> &middot;
+          <a href="https://docs.rs/euclid/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/euclid.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/euclid.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/servo/euclid.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>Geometry primitives</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 24 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 12 Jan 2019</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 30</span>
+          <span class="crate-stat"><b>Open Issues</b>: 7</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        statrs
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/statrs">crate</a> &middot;
+          <a href="https://github.com/boxtown/statrs">repo</a> &middot;
+          <a href="https://docs.rs/statrs/0.10.0/statrs/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/statrs.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/statrs.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/boxtown/statrs.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>Statistical computing library for Rust</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 05 Jan 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 02 Oct 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 9</span>
+          <span class="crate-stat"><b>Open Issues</b>: 14</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        sprs
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/sprs">crate</a> &middot;
+          <a href="https://github.com/vbarrielle/sprs">repo</a> &middot;
+          <a href="https://docs.rs/sprs">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/sprs.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/sprs.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/vbarrielle/sprs.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A sparse matrix library</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 11 Jan 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 09 Jan 2019</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 8</span>
+          <span class="crate-stat"><b>Open Issues</b>: 29</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        GSL
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/GSL">crate</a> &middot;
+          <a href="https://github.com/GuillaumeGomez/rust-GSL">repo</a> &middot;
+          <a href="https://docs.rs/crate/GSL/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/GSL.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/GSL.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/GuillaumeGomez/rust-GSL.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A rust binding for the GSL (the GNU scientific library)</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 26 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 06 Dec 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 11</span>
+          <span class="crate-stat"><b>Open Issues</b>: 7</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        coaster
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/coaster">crate</a> &middot;
+          <a href="https://github.com/ratpoison-io/coaster">repo</a> &middot;
+          <a href="http://ratpoison.io/projects/coaster">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/coaster.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/coaster.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/ratpoison-io/coaster.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>high-performance computation on any hardware</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 11 Dec 2018</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 02 Aug 2017</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 11</span>
+          <span class="crate-stat"><b>Open Issues</b>: 8</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        parenchyma
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/parenchyma">crate</a> &middot;
+          <a href="https://github.com/lychee-eng/parenchyma">repo</a> &middot;
+          <a href="https://docs.rs/parenchyma">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/parenchyma.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/parenchyma.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/lychee-eng/parenchyma.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A high-performance computing (HPC) framework</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 23 Aug 2018</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 18 Mar 2017</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 12</span>
+          <span class="crate-stat"><b>Open Issues</b>: 13</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        ndarray-linalg
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/ndarray-linalg">crate</a> &middot;
+          <a href="https://github.com/termoshtt/ndarray-linalg">repo</a> &middot;
+          <a href="https://docs.rs/ndarray-linalg/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/ndarray-linalg.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/ndarray-linalg.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/termoshtt/ndarray-linalg.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>Linear algebra package for rust-ndarray using LAPACK</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 03 Mar 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 01 Sep 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 7</span>
+          <span class="crate-stat"><b>Open Issues</b>: 17</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        matrixmultiply
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/matrixmultiply">crate</a> &middot;
+          <a href="https://github.com/bluss/matrixmultiply/">repo</a> &middot;
+          <a href="https://docs.rs/matrixmultiply/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/matrixmultiply.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/matrixmultiply.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/bluss/matrixmultiply.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>General matrix multiplication for f32 and f64 matrices. Operates on matrices with general layout (they can use arbitrary row and column stride). Detects and uses AVX or SSE2 on x86 platforms transparently for higher performance. Uses a microkernel strategy, so that the implementation is easy to parallelize and optimize.</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 08 Dec 2018</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 08 Dec 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 3</span>
+          <span class="crate-stat"><b>Open Issues</b>: 7</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        lapack
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/lapack">crate</a> &middot;
+          <a href="https://github.com/blas-lapack-rs/lapack">repo</a> &middot;
+          <a href="https://docs.rs/lapack">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/lapack.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/lapack.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/blas-lapack-rs/lapack.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>The package provides wrappers for LAPACK (Fortran).</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 26 May 2018</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 26 May 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 5</span>
+          <span class="crate-stat"><b>Open Issues</b>: 0</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        linxal
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/linxal">crate</a> &middot;
+          <a href="https://github.com/masonium/linxal">repo</a> &middot;
+          <a href="https://docs.rs/linxal/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/linxal.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/linxal.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/masonium/linxal.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>Linear Algebra package with rust-ndarray interface</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 26 Aug 2017</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 17 Apr 2017</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 4</span>
+          <span class="crate-stat"><b>Open Issues</b>: 8</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        blas
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/blas">crate</a> &middot;
+          <a href="https://github.com/blas-lapack-rs/blas">repo</a> &middot;
+          <a href="https://docs.rs/blas">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/blas.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/blas.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/blas-lapack-rs/blas.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>The package provides wrappers for BLAS (Fortran).</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 26 May 2018</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 26 May 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 5</span>
+          <span class="crate-stat"><b>Open Issues</b>: 1</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        argmin
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/argmin">crate</a> &middot;
+          <a href="https://github.com/argmin-rs/argmin">repo</a> &middot;
+          <a href="https://argmin-rs.github.io/argmin/argmin/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/argmin.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/argmin.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/argmin-rs/argmin.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A pure Rust toolbox/framework for numerical optimization</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 27 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 23 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 2</span>
+          <span class="crate-stat"><b>Open Issues</b>: 3</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        ndarray-stats
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/ndarray-stats">crate</a> &middot;
+          <a href="https://github.com/jturner314/ndarray-stats">repo</a> &middot;
+          <a href="https://docs.rs/ndarray-stats/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/ndarray-stats.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/ndarray-stats.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/jturner314/ndarray-stats.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>Statistical routines for ArrayBase, the n-dimensional array data structure provided by ndarray.</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 26 Feb 2019</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 21 Nov 2018</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 2</span>
+          <span class="crate-stat"><b>Open Issues</b>: 8</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        cublas
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/cublas">crate</a> &middot;
+          <a href="https://github.com/autumnai/rust-cublas">repo</a> &middot;
+          <a href="https://autumnai.github.io/rust-cublas">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/cublas.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/cublas.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/autumnai/rust-cublas.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>safe Rust wrapper for CUDA's cuBLAS</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 14 Jan 2018</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 04 Feb 2016</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 2</span>
+          <span class="crate-stat"><b>Open Issues</b>: 0</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        numrs
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/numrs">crate</a> &middot;
+          <a href="https://github.com/sankha93/numrs">repo</a> &middot;
+          <a href="http://sankhs.com/numrs">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/numrs.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/numrs.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/sankha93/numrs.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>A numerical computations library for Rust</p>
+
+      <div style="font-size: small;">
+
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 08 May 2016</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 08 May 2016</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 1</span>
+          <span class="crate-stat"><b>Open Issues</b>: 3</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        qcgpu
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/qcgpu">crate</a> &middot;
+          
+          <a href="https://qcgpu.github.io/qcgpu-rust/doc/qcgpu/index.html">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/qcgpu.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/qcgpu.svg?maxAge=2592000">
+        
+        
+      </div>
+
+      <p>Open Source, High Performance & Hardware Accelerated, Quantum Computer Simulation in Rust</p>
+
+      <div style="font-size: small;">
+
+        
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 04 Apr 2018</span>
+        
+        
+      </div>
+    </div>
+  
+
+  <div class="followup">
+    Do you know of a crate that is missing?
+    <a href="https://github.com/anowell/are-we-learning-yet/issues/new?title=Add+crate:+CRATE&body=Please+add+crate+to+category:+Scientific Computing+%0A%0APro-tip%3a+a+quick+PR+to+_data/crates.yaml+often+gets+merged+quicker." target="_blank">
+      Create an issue
+    </a>
+    or a PR.
+    <br>
+    Looking for something you didn't find? Try asking
+    <a href="/irc/">on IRC</a>.
+  </div>
+
+
+</article>
+
+    </div>
+
+    <footer class="site-footer">
+  <div class="container">
+
+    <nav class="site-nav" style="text-align: center; font-size: smaller;">
+      
+      
+        
+      
+        
+      
+        
+          <span style="padding: 15px;">
+            <a class="page-link" href="/irc/">Chat</a>
+          </span>
+        
+      
+        
+          <span style="padding: 15px;">
+            <a class="page-link" href="/friends/">Friends</a>
+          </span>
+        
+      
+        
+          <span style="padding: 15px;">
+            <a class="page-link" href="/about/">About</a>
+          </span>
+        
+      
+    </nav>
+
+    <div style="text-align: center; font-size: small;">Are we learning yet? - Last updated: <a href="https://travis-ci.org/anowell/are-we-learning-yet/builds">2019-03-04</a> </div>
+
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
